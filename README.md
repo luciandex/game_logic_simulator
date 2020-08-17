@@ -7,6 +7,7 @@ A "user" is an object (specific type) with some properties (Health, Strength, De
 
 The users levcels as arrays:
 $HERO = ["health" => [70, 100], "strength" => [70, 80], "defence" => [45, 55], "speed" => [40, 50], "luck" => [10, 30]];
+
 $THEBEAST = ["health" => [60, 90], "strength" => [60, 90], "defence" => [40, 60], "speed" => [40, 60], "luck" => [25, 40]];
 
 Just one user have 2 skills, the hero, and these are used with a known fixed probability (RapidStrike 10% (this produce duble damage to the opponent), MagicShield 20% (this produce a half damage to the "hero" when is used)).
